@@ -6,7 +6,7 @@ WORKDIR /app
 RUN apk add --no-cache git
 
 # Clone your frontend repo
-RUN git clone https://github.com/phani2498/gfe.git .
+RUN git clone https://github.com/Arpit-0908/2300033545-End-Sem .
 
 # Install deps and build
 RUN npm install
